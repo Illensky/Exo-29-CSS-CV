@@ -31,14 +31,21 @@ a {
     text-decoration: none;
 }
 
+header {
+    width: 83%;
+    margin: auto;
+}
+
 #head {
     border-top: dotted 4px gray;
     border-bottom: dotted 4px gray;
     height: 160px;
-    margin: 10px 100px;
+    margin: 10px auto;
     background-color: #eeeded;
     border-radius: 20px;
     box-shadow: 5px 5px 50px 12px gray;
+    width: 100%;
+    margin: 10px auto;
 }
 
 header div h1 {
@@ -93,13 +100,13 @@ header div p {
     display: inline-block;
     float: left;
     border-right: 1px solid gray;
-    width: 18%;
+    width: 20%;
 }
 
 .description {
     display: inline-block;
     float: right;
-    width: 78%;
+    width: 76%;
 }
 
 #competences, #langue, #interet {
