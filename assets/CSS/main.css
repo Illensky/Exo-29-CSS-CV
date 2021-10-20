@@ -32,30 +32,31 @@ a {
 }
 
 header {
-    width: 83%;
-    margin: auto;
+    width: 85%;
+    margin: 10px auto;
 }
 
 #head {
     border-top: dotted 4px gray;
     border-bottom: dotted 4px gray;
-    height: 160px;
+    height: 165px;
     margin: 10px auto;
     background-color: #eeeded;
     border-radius: 20px;
     box-shadow: 5px 5px 50px 12px gray;
     width: 100%;
-    margin: 10px auto;
 }
 
-header div h1 {
-    float: left;
-    margin-left: 100px;
-    margin-top: 40px;
+header div {
+    display: inline-block;
+    width: 40%;
+    margin-left: 20px;
 }
 
 header div p {
     float: right;
+    width: 40%;
+    margin: auto auto;
 }
 
 #objectif {
