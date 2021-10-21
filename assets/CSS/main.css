@@ -14,9 +14,6 @@ h2 {
     font-size: 25px;
 }
 
-h3 {
-
-}
 .corpus {
     width: 80%;
     margin: auto;
@@ -155,4 +152,74 @@ li {
     float: right;
     width: 64%;
     text-align: right;
+}
+
+@media screen and (max-width: 1388px) {
+    body {
+        width: 100%;
+    }
+
+    .corpus {
+        width: 80%;
+        margin: auto;
+    }
+
+    #head {
+        height: 550px;
+    }
+
+    #head > p {
+        float : left;
+        clear: both;
+    }
+
+    #head > div {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info {
+        width : 40%;
+    }
+
+    .description {
+        float: right;
+        width: 55%;
+    }
+
+    #formation {
+        clear: both;
+        height: 500px;
+    }
+
+    .diplome > h3 {
+        width: 40%;
+        word-break: break-word;
+        float: left;
+    }
+
+    .diplome > p {
+        width: 55%;
+        float: right;
+        word-break: break-word;
+    }
+
+    .diplome {
+        clear: both;
+    }
+
+    #foot_block {
+        clear: both;
+    }
+
+    #parcours {
+        height: 1550px;
+    }
+
+    #competences, #langue, #interet {
+        width: 100%;
+        clear: both;
+
+    }
 }
