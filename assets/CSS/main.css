@@ -1,225 +1,211 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: rgba(255, 255, 255, 0.68);
-    color: #3a3a3a;
-    font-family: 'Noto Sans Mono', monospace;
-}
-
-h1 {
-    font-size: 37px;
-}
-
-h2 {
-    font-size: 25px;
-}
-
-.corpus {
-    width: 80%;
-    margin: auto;
-    background-color: #eeeded;
-    padding: 30px;
-    box-shadow: 5px 5px 50px 12px gray;
-    border-radius: 20px;
+    color: #010762;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
-    color: rgba(0, 25, 255, 0.5);
+    color: #010762;
     text-decoration: none;
+    text-shadow: -2px 0px 10px #010762;
 }
 
-header {
-    width: 85%;
-    margin: 10px auto;
+a:hover {
+    text-shadow: none;
+    text-decoration: underline;
 }
 
-#head {
-    border-top: dotted 4px gray;
-    border-bottom: dotted 4px gray;
-    height: 165px;
-    margin: 10px auto;
+#container {
+    width: 60%;
+    margin: 100px auto;
     background-color: #eeeded;
-    border-radius: 20px;
-    box-shadow: 5px 5px 50px 12px gray;
-    width: 100%;
 }
 
-header div {
+#left {
+    vertical-align: top;
     display: inline-block;
-    width: 40%;
-    margin-left: 20px;
+    width: 30%;
+    background-color: #eeeded;
 }
 
-header div p {
-    float: right;
-    width: 40%;
-    margin: auto auto;
+#right {
+    display: inline-block;
+    width: 69.5%;
+    background-color: #eeeded;
+    border-left: #010762 5px solid;
+}
+
+#main {
+    width: 101%;
+    font-size: 30px;
+    text-align: center;
+    height: 500px;
+    background-color: #010762;
+    color: white;
+}
+
+#main img {
+    border-radius: 50%;
+    width: 80%;
+    margin: 40px 0;
+}
+
+#contact {
+    margin: 100px 0;
+    border-bottom: #010762 5px solid;
+    border-top: #010762 5px solid;
+    height: 350px;
+    font-size: 20px;
+    padding: 50px;
+}
+
+#resume {
+    font-size: 20px;
+    height: 600px;
+    padding: 40px 100px;
 }
 
 #objectif {
-    border-top: dotted 4px gray;
-    margin: 5px;
+    border-bottom: #010762 5px solid;
+    font-size: 25px;
+    padding: 30px 100px;
+    text-align: center;
+    vertical-align: top;
+    height: 300px;
 }
 
-#objectif h2 {
-    text-align: center;
+#objectif p {
+    padding: 50px;
+}
 
+#formation {
+    font-size: 25px;
+    border-bottom: #010762 5px solid;
+    height: 500px;
+    padding: 50px;
+}
+
+#formation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.diplome h3 {
+    text-align: center;
+    margin: 15px;
 }
 
 #parcours {
-    border-top: dotted 4px gray;
-    border-bottom: dotted 4px gray;
-    margin: 5px;
-}
-
-.info h3 {
-    border: none;
+    padding: 50px;
+    font-size: 25px;
+    height: 1350px;
 }
 
 #parcours h2 {
     text-align: center;
+    margin: 30px 0;
 }
 
-#parcours h3 {
-    display: block;
-    width: 100%;
+.experience h3 {
+    text-align: center;
+    margin: 15px;
 }
 
-.experience {
-    width: 100%;
-    height: 200px;
+.experience p {
+    margin: 30px;
 }
 
-.experience > h3 {
-    border: none;
+h3.info {
+    border-top: #010762 1px solid;
+    padding-top: 20px;
 }
 
 .info {
-    display: inline-block;
-    float: left;
-    border-right: 1px solid gray;
-    width: 20%;
+    display: block;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
-.description {
-    display: inline-block;
-    float: right;
-    width: 76%;
+#resume>div {
+    margin: 70px 0;
 }
 
-#competences, #langue, #interet {
-    width: 30%;
-    display: inline-block;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    border-radius: 20px;
-    height: 250px;
-    text-align: center;
-    margin: 0 auto;
-    vertical-align: top;
+#competences h2 {
+    margin: 20px 0;
 }
 
-#foot_block {
-    margin-top: 25px;
-    margin-left: 60px;
+#langue h2 {
+    margin: 20px 0;
+}
+
+#interet h2 {
+    margin: 20px 0;
 }
 
 li {
-    text-align: left;
-    margin-left: 30px;
+    list-style-type: none;
+    margin: 10px 0;
 }
 
-#formation {
-    border-bottom: dotted 4px gray;
-    height: 400px;
+.progress {
+    height: 25px;
+    width: 80%;
+    border: 1px solid #010762;
 }
 
-#formation > h2 {
-    text-align: center;
+#css_prog {
+    display: inline-block;
+    color: white;
+    width: 70%;
+    background-color: #010762;
 }
 
-.diplome {
-    height: 100px;
+#html_prog {
+    display: inline-block;
+    color: white;
+    width: 90%;
+    background-color: #010762;
 }
 
-.diplome > h3 {
-    float: left;
-    width: 32%;
-    border-right: 1px solid gray;
+#js_prog {
+    display: inline-block;
+    color: white;
+    width: 20%;
+    background-color: #010762;
 }
 
-.diplome > p {
-    float: right;
-    width: 64%;
-    text-align: right;
+#com_prog {
+    display: inline-block;
+    color: white;
+    width: 60%;
+    background-color: #010762;
 }
 
-@media screen and (max-width: 1388px) {
-    body {
-        width: 100%;
-    }
+#gp_prog {
+    display: inline-block;
+    color: white;
+    width: 90%;
+    background-color: #010762;
+}
 
-    .corpus {
-        width: 80%;
-        margin: auto;
-    }
+#fr_prog {
+    display: inline-block;
+    color: white;
+    width: 99%;
+    background-color: #010762;
+}
 
-    #head {
-        height: 550px;
-    }
-
-    #head > p {
-        float : left;
-        clear: both;
-    }
-
-    #head > div {
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
-
-    .info {
-        width : 40%;
-    }
-
-    .description {
-        float: right;
-        width: 55%;
-    }
-
-    #formation {
-        clear: both;
-        height: 500px;
-    }
-
-    .diplome > h3 {
-        width: 40%;
-        word-break: break-word;
-        float: left;
-    }
-
-    .diplome > p {
-        width: 55%;
-        float: right;
-        word-break: break-word;
-    }
-
-    .diplome {
-        clear: both;
-    }
-
-    #foot_block {
-        clear: both;
-    }
-
-    #parcours {
-        height: 1550px;
-    }
-
-    #competences, #langue, #interet {
-        width: 100%;
-        clear: both;
-
-    }
+#en_prog {
+    display: inline-block;
+    color: white;
+    width: 75%;
+    background-color: #010762;
 }
